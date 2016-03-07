@@ -12,9 +12,9 @@
 ## Develop Description:
 The **Library Management System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory. 
 
-- ** bin **: This file directory include executable binary file.
-- ** doc **: This file directory include created and backup MySQL files, project documentations and project flowcharts.
-- ** src **: This file directory include project's all source codes.
+- **bin**: This file directory include executable binary file.
+- **doc**: This file directory include created and backup MySQL files, project documentations and project flowcharts.
+- **src**: This file directory include project's all source codes.
 
 ## Develop Configure:
 1. Ensure that your operating system has been installed the MySQL software and open service. Under Linux MySQL installation is very simple, just run the below command
@@ -29,7 +29,7 @@ mysql -u username -p password
 ``` bash
 mysql -u username -p password [database name] < library_management_system_backup.sql
 ```
-Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.
+Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.  
 3. Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
 ``` bash
 ./library_management_system
