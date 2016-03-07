@@ -17,7 +17,7 @@ The **Library Management System** is a simple **Database** project. Qt is used f
 - **src**: This file directory include project's all source codes.
 
 ## Develop Configure:
-1. Ensure that your operating system has been installed the MySQL software and open service. Under Linux MySQL installation is very simple, just run the below command
+Ensure that your operating system has been installed the MySQL software and open service. Under Linux MySQL installation is very simple, just run the below command
 ``` bash
 sudo apt-get install mysql-server
 ```
@@ -25,12 +25,11 @@ In the process of installing MySQL softwares, you need to set up a database admi
 ``` bash
 mysql -u username -p password
 ```
-2. In the project doc directory, there is a library management_system_backup.sql, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
+In the project doc directory, there is a library management_system_backup.sql, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
 ``` bash
 mysql -u username -p password [database name] < library_management_system_backup.sql
 ```
-Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.  
-3. Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
+Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
 ``` bash
 ./library_management_system
 ```
