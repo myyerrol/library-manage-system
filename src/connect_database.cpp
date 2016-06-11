@@ -21,7 +21,7 @@ bool ConnectDatabase::openDatabase()
 {
 
     db.setHostName("localhost");
-    db.setDatabaseName("Library");
+    db.setDatabaseName("library");
     db.setUserName("root");
     db.setPassword("root");
     db.setPort(3306);

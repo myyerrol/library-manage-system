@@ -1,4 +1,4 @@
-create database Library;
+create database library;
 
 create table book(
     bno     char(7) primary key,
