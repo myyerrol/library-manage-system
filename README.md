@@ -10,7 +10,7 @@
 - MySQL: 5.5.46
 
 ## Develop Description:
-The **Library Management System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory. 
+The **Library Management System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory.
 
 - **bin**: This file directory include executable binary file.
 - **doc**: This file directory include created and backup MySQL files, project documentations and project flowcharts.
