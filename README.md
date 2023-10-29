@@ -1,4 +1,4 @@
-# Library Managememt System
+# Library Manage System
 ## Develop Environment:
 - GNU/Linux Ubuntu-14.04.3-LTS
 - GNU/Linux kernel: 3.19.0-25-generic
@@ -10,7 +10,7 @@
 - MySQL: 5.5.46
 
 ## Develop Description:
-The **Library Management System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory.
+The **Library Manage System** is a simple **Database** project. Qt is used for building the GUI of user and implement SQL's insert, search, update and delete operations by invoking QSql libraries. MySQL is used for storaging original data. For more detail informations about project, you can find documents in **doc** directory.
 
 - **bin**: This file directory include executable binary file.
 - **doc**: This file directory include created and backup MySQL files, project documentations and project flowcharts.
@@ -27,12 +27,12 @@ In the process of installing MySQL softwares, you need to set up a database admi
 mysql -u username -p password
 ```
 
-In the project doc directory, there is a library management_system_backup.sql, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
+In the project doc directory, there is a backup file, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
 ``` bash
-mysql -u username -p password [database name] < library_management_system_backup.sql
+mysql -u username -p password [database name] < library-manage-system-backup.sql
 ```
 
 Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
 ``` bash
-./library_management_system
+./library-manage-system
 ```

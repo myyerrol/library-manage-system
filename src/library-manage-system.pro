@@ -9,7 +9,7 @@ QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = library_management_system
+TARGET = library-manage-system
 TEMPLATE = app
 
 
