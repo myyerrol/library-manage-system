@@ -27,7 +27,7 @@ In the process of installing MySQL softwares, you need to set up a database admi
 mysql -u username -p password
 ```
 
-In the project doc directory, there is a backup file, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
+In the project doc directory, there is a `library-manage-system-backup.sql`, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
 ``` bash
 mysql -u username -p password [database name] < library-manage-system-backup.sql
 ```
