@@ -27,12 +27,12 @@ In the process of installing MySQL softwares, you need to set up a database admi
 mysql -u username -p password
 ```
 
-In the project doc directory, there is a `library-manage-system-backup.sql`, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
+In the project doc directory, there is a `library_manage_system_backup.sql`, you can use the terminal switch to the doc directory and execute command to restore good database has been created.
 ``` bash
-mysql -u username -p password [database name] < library-manage-system-backup.sql
+mysql -u username -p password [database name] < library_manage_system_backup.sql
 ```
 
 Because we are using the MySQL InnoDB storage engine, so there is no way to directly copy the entire data directory to be backed up.Open a Linux terminal, switch to the bin directory of the file, execute follow command to run the program.
 ``` bash
-./library-manage-system
+./library_manage_system
 ```
